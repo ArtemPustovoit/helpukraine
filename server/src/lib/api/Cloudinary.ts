@@ -1,4 +1,3 @@
-require("dotenv").config();
 import cloudinary from "cloudinary";
 
 export const Cloudinary = {

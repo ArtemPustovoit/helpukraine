@@ -21,7 +21,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 12424,
-    numOfGuests: 3
+    numOfGuests: 3,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b31"),
@@ -39,7 +39,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 15806,
-    numOfGuests: 3
+    numOfGuests: 3,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b32"),
@@ -57,7 +57,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 4055,
-    numOfGuests: 2
+    numOfGuests: 2,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b33"),
@@ -75,7 +75,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 21292,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b34"),
@@ -93,7 +93,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 20930,
-    numOfGuests: 5
+    numOfGuests: 5,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b35"),
@@ -111,7 +111,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 16836,
-    numOfGuests: 2
+    numOfGuests: 2,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b36"),
@@ -129,7 +129,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 2577,
-    numOfGuests: 1
+    numOfGuests: 1,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b37"),
@@ -147,7 +147,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 23903,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b38"),
@@ -165,7 +165,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 21982,
-    numOfGuests: 3
+    numOfGuests: 3,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b39"),
@@ -183,7 +183,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 18126,
-    numOfGuests: 5
+    numOfGuests: 5,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b3a"),
@@ -201,7 +201,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 16162,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b3b"),
@@ -219,7 +219,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 11688,
-    numOfGuests: 5
+    numOfGuests: 5,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b3c"),
@@ -237,7 +237,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 16843,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b3d"),
@@ -255,7 +255,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 3078,
-    numOfGuests: 5
+    numOfGuests: 5,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b3e"),
@@ -273,7 +273,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 12127,
-    numOfGuests: 2
+    numOfGuests: 2,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b3f"),
@@ -291,7 +291,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 19242,
-    numOfGuests: 2
+    numOfGuests: 2,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b40"),
@@ -309,7 +309,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 18127,
-    numOfGuests: 2
+    numOfGuests: 2,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b41"),
@@ -327,7 +327,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 22707,
-    numOfGuests: 5
+    numOfGuests: 5,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b42"),
@@ -344,7 +344,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 11845,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b43"),
@@ -362,7 +362,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 13623,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b44"),
@@ -380,7 +380,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 6879,
-    numOfGuests: 3
+    numOfGuests: 3,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b45"),
@@ -398,7 +398,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 14879,
-    numOfGuests: 5
+    numOfGuests: 5,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b46"),
@@ -416,7 +416,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 2778,
-    numOfGuests: 5
+    numOfGuests: 5,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b47"),
@@ -434,7 +434,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 17777,
-    numOfGuests: 3
+    numOfGuests: 3,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b48"),
@@ -452,7 +452,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 19462,
-    numOfGuests: 1
+    numOfGuests: 1,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b49"),
@@ -470,7 +470,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 9425,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b4a"),
@@ -488,7 +488,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 1918,
-    numOfGuests: 1
+    numOfGuests: 1,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b4b"),
@@ -506,7 +506,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 11349,
-    numOfGuests: 5
+    numOfGuests: 5,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b4c"),
@@ -524,7 +524,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 23483,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b4d"),
@@ -542,7 +542,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 8721,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b4e"),
@@ -560,7 +560,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 5884,
-    numOfGuests: 1
+    numOfGuests: 1,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b4f"),
@@ -578,7 +578,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 19649,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b50"),
@@ -596,7 +596,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 22501,
-    numOfGuests: 5
+    numOfGuests: 5,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b51"),
@@ -614,7 +614,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 4051,
-    numOfGuests: 5
+    numOfGuests: 5,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b52"),
@@ -632,7 +632,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 9162,
-    numOfGuests: 2
+    numOfGuests: 2,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b53"),
@@ -650,7 +650,7 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 24842,
-    numOfGuests: 4
+    numOfGuests: 4,
   },
   {
     _id: new ObjectId("5d378db94e84753160e08b54"),
@@ -668,8 +668,8 @@ const listings: Listing[] = [
     bookings: [],
     bookingsIndex: {},
     price: 23012,
-    numOfGuests: 1
-  }
+    numOfGuests: 1,
+  },
 ];
 const users: User[] = [
   {
@@ -685,8 +685,8 @@ const users: User[] = [
     listings: [
       new ObjectId("5d378db94e84753160e08b31"),
       new ObjectId("5d378db94e84753160e08b4b"),
-      new ObjectId("5d378db94e84753160e08b4c")
-    ]
+      new ObjectId("5d378db94e84753160e08b4c"),
+    ],
   },
   {
     _id: "5d378db94e84753160e08b56",
@@ -710,8 +710,8 @@ const users: User[] = [
       new ObjectId("5d378db94e84753160e08b50"),
       new ObjectId("5d378db94e84753160e08b51"),
       new ObjectId("5d378db94e84753160e08b53"),
-      new ObjectId("5d378db94e84753160e08b54")
-    ]
+      new ObjectId("5d378db94e84753160e08b54"),
+    ],
   },
   {
     _id: "5d378db94e84753160e08b57",
@@ -733,8 +733,8 @@ const users: User[] = [
       new ObjectId("5d378db94e84753160e08b3e"),
       new ObjectId("5d378db94e84753160e08b47"),
       new ObjectId("5d378db94e84753160e08b48"),
-      new ObjectId("5d378db94e84753160e08b4d")
-    ]
+      new ObjectId("5d378db94e84753160e08b4d"),
+    ],
   },
   {
     _id: "5d378db94e84753160e08b58",
@@ -749,8 +749,8 @@ const users: User[] = [
     listings: [
       new ObjectId("5d378db94e84753160e08b3f"),
       new ObjectId("5d378db94e84753160e08b40"),
-      new ObjectId("5d378db94e84753160e08b44")
-    ]
+      new ObjectId("5d378db94e84753160e08b44"),
+    ],
   },
   {
     _id: "5d378db94e84753160e08b59",
@@ -771,9 +771,9 @@ const users: User[] = [
       new ObjectId("5d378db94e84753160e08b49"),
       new ObjectId("5d378db94e84753160e08b4e"),
       new ObjectId("5d378db94e84753160e08b4f"),
-      new ObjectId("5d378db94e84753160e08b52")
-    ]
-  }
+      new ObjectId("5d378db94e84753160e08b52"),
+    ],
+  },
 ];
 
 const seed = async () => {

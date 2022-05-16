@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "commonjs",
     "rootDir": "./src",
-    "outDir": "./build",
+    "outDir": "../helpukraine-deploy/src",
     "esModuleInterop": true,
     "strict": true
   },

@@ -29,7 +29,7 @@ export const ListingCreateBooking = ({
   checkOutDate,
   setCheckInDate,
   setCheckOutDate,
-  setModalVisible
+  setModalVisible,
 }: Props) => {
   const bookingsIndexJSON: BookingsIndex = JSON.parse(bookingsIndex);
 
@@ -49,9 +49,7 @@ export const ListingCreateBooking = ({
     if (currentDate) {
       const dateIsBeforeEndOfDay = currentDate.isBefore(moment().endOf("day"));
       const dateIsMoreThanThreeMonthsAhead = moment(currentDate).isAfter(
-        moment()
-          .endOf("day")
-          .add(90, "days")
+        moment().endOf("day").add(90, "days")
       );
 
       return (
@@ -130,7 +128,7 @@ export const ListingCreateBooking = ({
               showToday={false}
               disabled={checkInInputDisabled}
               disabledDate={disabledDate}
-              onChange={dateValue => setCheckInDate(dateValue)}
+              onChange={(dateValue) => setCheckInDate(dateValue)}
               onOpenChange={() => setCheckOutDate(null)}
               renderExtraFooter={() => {
                 return (
@@ -151,10 +149,13 @@ export const ListingCreateBooking = ({
               showToday={false}
               disabled={checkOutInputDisabled}
               disabledDate={disabledDate}
-              onChange={dateValue => verifyAndSetCheckOutDate(dateValue)}
-              dateRender={current => {
+              onChange={(dateValue) => verifyAndSetCheckOutDate(dateValue)}
+              dateRender={(current) => {
                 if (
-                  moment(current).isSame(checkInDate ? checkInDate : undefined, "day")
+                  moment(current).isSame(
+                    checkInDate ? checkInDate : undefined,
+                    "day"
+                  )
                 ) {
                   return (
                     <Tooltip title="Check in date">
@@ -164,7 +165,9 @@ export const ListingCreateBooking = ({
                     </Tooltip>
                   );
                 } else {
-                  return <div className="ant-calendar-date">{current.date()}</div>;
+                  return (
+                    <div className="ant-calendar-date">{current.date()}</div>
+                  );
                 }
               }}
               renderExtraFooter={() => {

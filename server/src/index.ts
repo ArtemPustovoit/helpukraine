@@ -8,7 +8,7 @@ import { connectDatabase } from "./database";
 import { typeDefs, resolvers } from "./graphql";
 
 const mount = async (app: Application) => {
-  console.log(`[app] : http://[::1]:${process.env.PORT}`);
+  console.log(`[app] : http://localhost:${process.env.PORT}`);
   const db = await connectDatabase();
 
   app.use(express.json({ limit: "2mb" }));

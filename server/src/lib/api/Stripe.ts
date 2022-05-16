@@ -1,5 +1,4 @@
 import stripe from "stripe";
-require("dotenv").config();
 
 const client = new stripe(`${process.env.S_SECRET_KEY}`, {
   apiVersion: "2020-08-27",

@@ -26,8 +26,6 @@ import { Viewer } from "./lib/types";
 import * as serviceWorker from "./serviceWorker";
 import "./styles/index.css";
 
-require("dotenv").config();
-
 const client = new ApolloClient({
   uri: "/api",
   request: async (operation: {

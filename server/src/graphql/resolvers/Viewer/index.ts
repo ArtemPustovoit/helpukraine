@@ -1,4 +1,3 @@
-require("dotenv").config();
 import crypto from "crypto";
 import { Request, Response } from "express";
 import { IResolvers } from "apollo-server-express";

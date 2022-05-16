@@ -11,8 +11,6 @@ import { DisconnectStripe as DisconnectStripeData } from "../../../../lib/graphq
 import { User as UserData } from "../../../../lib/graphql/queries/User/__generated__/User";
 import { Viewer } from "../../../../lib/types";
 
-require("dotenv").config();
-
 interface Props {
   user: UserData["user"];
   viewer: Viewer;

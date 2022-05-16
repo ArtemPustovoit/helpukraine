@@ -1,4 +1,3 @@
-require("dotenv").config();
 import { google } from "googleapis";
 import {
   Client,

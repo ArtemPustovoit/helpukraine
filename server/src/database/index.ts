@@ -1,4 +1,3 @@
-require("dotenv").config();
 import { MongoClient } from "mongodb";
 import { Database, Booking, User, Listing } from "../lib/types";
 
